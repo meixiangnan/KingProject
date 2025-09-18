@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{315adeaa-5d0e-bd8f-763d-9407d6c1d835}</ProjectGuid>
+    <ProjectGuid>{e4432b0e-c005-dd41-bfcf-40ebc1991c1c}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -71,8 +71,8 @@
     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonData.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\Animation.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\SkeletonJson.cs" />
-    <Compile Include="Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationEnd.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimation.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Utility\YieldInstructions\WaitForSpineAnimationEnd.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\AtlasAssetBase.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-unity\Deprecated\SlotBlendModes\SlotBlendModes.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-unity\Asset Types\RegionlessAttachmentLoader.cs" />
@@ -99,9 +99,9 @@
     <Compile Include="Assets\Spine\Runtime\spine-unity\Components\Following\BoneFollower.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\IkConstraint.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\ClippingAttachment.cs" />
-    <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\IUpdatable.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-unity\Utility\AttachmentCloneExtensions.cs" />
+    <Compile Include="Assets\Spine\Runtime\spine-unity\Components\SkeletonUtility\FollowLocationRigidbody.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\PathConstraintData.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
     <Compile Include="Assets\Spine\Runtime\spine-csharp\Bone.cs" />
@@ -461,7 +461,7 @@
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>E:\Project\Unity\KingProject\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -845,10 +845,10 @@
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

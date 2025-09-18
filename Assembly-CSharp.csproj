@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{fe666902-1a79-f049-09f7-1a3778848203}</ProjectGuid>
+    <ProjectGuid>{be135430-50e2-b23f-3ebb-cc67b5aea2bc}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -76,8 +76,8 @@
     <Compile Include="Assets\Scripts\ZBTest.cs" />
     <Compile Include="Assets\Scripts\util\PlatformInterface.cs" />
     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\Loader\CustomLoader.cs" />
-    <Compile Include="Assets\Scripts\ui\friend\FriendDlg.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\UserInfoResponse.cs" />
+    <Compile Include="Assets\Scripts\ui\friend\FriendDlg.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropItem.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\EquipReceiveRequest.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\Login1Response.cs" />
@@ -86,11 +86,11 @@
     <Compile Include="Assets\Scripts\def\data_skillDef.cs" />
     <Compile Include="Assets\Scripts\spineanimation\APaintNodeSpine.cs" />
     <Compile Include="Assets\Scripts\pdata\ArenaRecord.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroUnloadResponse.cs" />
     <Compile Include="Assets\Scripts\ui\friend\FriendNode1Item.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroEvolveRequest.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
     <Compile Include="Assets\Scripts\def\data_avatarDef.cs" />
     <Compile Include="Assets\ChangeNameTip.cs" />
     <Compile Include="Assets\Scripts\net\BuffGoldAddRequest.cs" />
@@ -106,7 +106,6 @@
     <Compile Include="Assets\Scripts\ui\exui\Emoji\UIEmojiWrapper.cs" />
     <Compile Include="Assets\XLua\Src\LuaBase.cs" />
     <Compile Include="Assets\Scripts\home\Cloud.cs" />
-    <Compile Include="Assets\XLua\Src\InternalGlobals.cs" />
     <Compile Include="Assets\Scripts\net\HttpManager.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\TianqiAwardRequest.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\TechUpgradeRequest.cs" />
@@ -114,9 +113,9 @@
     <Compile Include="Assets\Scripts\ui\exui\Emoji\UIEmojiLabel.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MonsterReceiveRequest.cs" />
     <Compile Include="Assets\Scripts\KuaiTest.cs" />
-    <Compile Include="Assets\Scripts\ui\exui\UIProgressNormal.cs" />
-    <Compile Include="Assets\Scripts\net\LitJson\Lexer.cs" />
     <Compile Include="Assets\Scripts\net\LitJson\JsonData.cs" />
+    <Compile Include="Assets\Scripts\net\LitJson\Lexer.cs" />
+    <Compile Include="Assets\Scripts\ui\exui\UIProgressNormal.cs" />
     <Compile Include="Assets\Scripts\net\LitJson\IJsonWrapper.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroJoinRequest.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
@@ -129,6 +128,7 @@
     <Compile Include="Assets\Scripts\net\cmdbean\HistoryInfoRequest.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\ArenaAttackResponse.cs" />
+    <Compile Include="Assets\XLua\Src\InternalGlobals.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\GetStartADCodeResponse.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\EquipUnloadRequest.cs" />
     <Compile Include="Assets\Scripts\ui\heroinfo\HeroInfoGoodItem.cs" />
@@ -149,20 +149,20 @@
     <Compile Include="Assets\Scripts\GlobalLoader.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MonsterReceiveResponse.cs" />
     <Compile Include="Assets\Scripts\ui\partnerinfo\PartnerInfoDlg.cs" />
-    <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
     <Compile Include="Assets\Scripts\util\LocalStorage.cs" />
     <Compile Include="Assets\Scripts\ui\exui\button\UISwitchButton.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\BuyRequest.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
     <Compile Include="Assets\Scripts\world\StagePoint.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\SetColorPickerColor.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagPosition.cs" />
     <Compile Include="Assets\Scripts\def\StagePointDef.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MailReceiveRequest.cs" />
-    <Compile Include="Assets\Scripts\ui\exui\button\UIPushButton.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HistoryRewardsRequest.cs" />
     <Compile Include="Assets\Scripts\ui\dialogue\DialogueDlg.cs" />
     <Compile Include="Assets\Scripts\util\VoicePlayer.cs" />
+    <Compile Include="Assets\Scripts\ui\exui\button\UIPushButton.cs" />
     <Compile Include="Assets\Scripts\net\NetCallback.cs" />
     <Compile Include="Assets\Scripts\ui\TreasurehuntInfoTip.cs" />
     <Compile Include="Assets\Scripts\TexPaintNode.cs" />
@@ -177,8 +177,8 @@
     <Compile Include="Assets\Scripts\ui\exui\FairyPopupList.cs" />
     <Compile Include="Assets\Scripts\pdata\Equip.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\EventDelegate.cs" />
-    <Compile Include="Assets\Scripts\net\XLH.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragScrollView.cs" />
+    <Compile Include="Assets\Scripts\net\XLH.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MonsterShowResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
     <Compile Include="Assets\Scripts\def\data_resourcesDef.cs" />
@@ -213,12 +213,12 @@
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
     <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByFile\ByFile.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
     <Compile Include="Assets\Scripts\def\data_equipDef.cs" />
-    <Compile Include="Assets\Scripts\ui\exui\Line.cs" />
     <Compile Include="Assets\Scripts\pdata\Skill.cs" />
+    <Compile Include="Assets\Scripts\ui\exui\Line.cs" />
     <Compile Include="Assets\Scripts\ui\exui\grid\GridAttach.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroStoneLevelUpResponse.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
     <Compile Include="Assets\XLua\Src\TemplateEngine\TemplateEngine.cs" />
     <Compile Include="Assets\Scripts\ui\cover\CoverDlg.cs" />
     <Compile Include="Assets\Scripts\net\LitJson\JsonReader.cs" />
@@ -269,8 +269,8 @@
     <Compile Include="Assets\Scripts\ui\exui\button\FairyButtonNode.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\EquipListResponse.cs" />
     <Compile Include="Assets\Scripts\ui\guide\GuideDlg.cs" />
-    <Compile Include="Assets\Scripts\ui\exui\UIProgressBuff.cs" />
     <Compile Include="Assets\Scripts\util\CTTools.cs" />
+    <Compile Include="Assets\Scripts\ui\exui\UIProgressBuff.cs" />
     <Compile Include="Assets\Scripts\ui\exui\RewardItemBian.cs" />
     <Compile Include="Assets\Scripts\ui\pk\PKRewardDlg.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
@@ -287,10 +287,10 @@
     <Compile Include="Assets\Scripts\net\GetTradeGoodsResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
     <Compile Include="Assets\Scripts\ui\exui\button\FairyButtonClose.cs" />
-    <Compile Include="Assets\Scripts\ui\mail\MailMsgDlg.cs" />
     <Compile Include="Assets\Scripts\def\data_mailDef.cs" />
     <Compile Include="Assets\Scripts\pdata\TowerSetting.cs" />
     <Compile Include="Assets\Scripts\net\MyClient.cs" />
+    <Compile Include="Assets\Scripts\ui\mail\MailMsgDlg.cs" />
     <Compile Include="Assets\Scripts\ui\pk\PKRewardItem.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UI2DSpriteAnimation.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\AnimationOrTween.cs" />
@@ -343,12 +343,12 @@
     <Compile Include="Assets\Scripts\ui\exui\Triangulation.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayAnimation.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\TianqiAttackRequest.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\CampaignAttackResponse.cs" />
     <Compile Include="Assets\Scripts\ui\exui\UIProgressPanel.cs" />
     <Compile Include="Assets\Scripts\net\LitJson\JsonMockWrapper.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
     <Compile Include="Assets\Scripts\ui\tip\Tip.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
     <Compile Include="Assets\Scripts\ui\award\AwardDlg.cs" />
     <Compile Include="Assets\Scripts\ui\exui\LoopScrollView.cs" />
     <Compile Include="Assets\Scripts\ui\heroinfo\HeroInfoDlg.cs" />
@@ -363,13 +363,13 @@
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
     <Compile Include="Assets\Scripts\MapManager.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropContainer.cs" />
-    <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
-    <Compile Include="Assets\Scripts\ui\equipinfo\EquipUpNode.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
-    <Compile Include="Assets\Scripts\pdata\ArenaSelf.cs" />
+    <Compile Include="Assets\Scripts\ui\equipinfo\EquipUpNode.cs" />
+    <Compile Include="Assets\XLua\Tutorial\LoadLuaScript\ByString\ByString.cs" />
     <Compile Include="Assets\Scripts\def\DefTools.cs" />
     <Compile Include="Assets\Scripts\ui\buildinginfo\BuildingInfoItem.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\Scripts\pdata\ArenaSelf.cs" />
     <Compile Include="Assets\Scripts\pdata\Building.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroUpgradeResponse.cs" />
     <Compile Include="Assets\Scripts\ui\exui\grid\GridAdapter.cs" />
@@ -378,19 +378,19 @@
     <Compile Include="Assets\Scripts\ELSTest.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroUnloadRequest.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
     <Compile Include="Assets\XLua\Src\ObjectCasters.cs" />
     <Compile Include="Assets\Scripts\def\data_equip_skillDef.cs" />
     <Compile Include="Assets\Scripts\util\Date.cs" />
     <Compile Include="Assets\Scripts\ui\Tianfunode.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagRotation.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\GuideBattleRequest.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\PropertyReference.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\Login1Request.cs" />
     <Compile Include="Assets\Scripts\ui\technicalinfo\TechnicalInfoUIItem.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
-    <Compile Include="Assets\Scripts\net\cmdbean\SystemConfigRequest.cs" />
     <Compile Include="Assets\Scripts\util\Lan.cs" />
+    <Compile Include="Assets\Scripts\net\cmdbean\SystemConfigRequest.cs" />
     <Compile Include="Assets\Scripts\def\data_online_rewardDef.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\ExampleDragDropSurface.cs" />
     <Compile Include="Assets\Scripts\ui\mainui\MainUI.cs" />
@@ -415,10 +415,10 @@
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenFOV.cs" />
     <Compile Include="Assets\Scripts\ui\pk\PKItem.cs" />
     <Compile Include="Assets\Scripts\net\GetTianxianInfoResponse.cs" />
-    <Compile Include="Assets\Scripts\net\LitJson\ParserToken.cs" />
     <Compile Include="Assets\Scripts\world\PMap.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Interaction\UIShowControlScheme.cs" />
+    <Compile Include="Assets\Scripts\net\LitJson\ParserToken.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\UserInfoRequest.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIShowControlScheme.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\EquipUseRequest.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
     <Compile Include="Assets\XLua\Src\CodeEmit.cs" />
@@ -443,8 +443,8 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
     <Compile Include="Assets\Scripts\ui\exui\button\FairyButton.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\GMIncreatGoldRequest.cs" />
-    <Compile Include="Assets\Scripts\ui\exui\MeshWidget.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\UISliderColors.cs" />
+    <Compile Include="Assets\Scripts\ui\exui\MeshWidget.cs" />
     <Compile Include="Assets\Scripts\ui\heroinfo\HeroInfoSkillItem.cs" />
     <Compile Include="Assets\Scripts\ui\friend\FriendNode0.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIWidgetContainer.cs" />
@@ -461,35 +461,35 @@
     <Compile Include="Assets\Scripts\util\BinaryFile.cs" />
     <Compile Include="Assets\Scripts\ui\tianqiactivity\TianqiMatchingDlg.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
-    <Compile Include="Assets\Scripts\net\cmdbean\SystemConfigResponse.cs" />
     <Compile Include="Assets\Scripts\net\ChangeHeadResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\NGUIFont.cs" />
+    <Compile Include="Assets\Scripts\net\cmdbean\SystemConfigResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIKeyNavigation.cs" />
     <Compile Include="Assets\Scripts\fight\fightui\BuffIcon.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
-    <Compile Include="Assets\Scripts\net\HeroevolveUpRequest.cs" />
-    <Compile Include="Assets\Scripts\net\cmdbean\EquipUpgradeRequest.cs" />
     <Compile Include="Assets\Scripts\spineanimation\SActionGroup.cs" />
+    <Compile Include="Assets\Scripts\net\cmdbean\EquipUpgradeRequest.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\UIRect.cs" />
-    <Compile Include="Assets\Scripts\net\cmdbean\EquipDecomposeRequest.cs" />
     <Compile Include="Assets\XLua\Src\LuaEnv.cs" />
+    <Compile Include="Assets\Scripts\net\cmdbean\EquipDecomposeRequest.cs" />
+    <Compile Include="Assets\Scripts\net\HeroevolveUpRequest.cs" />
     <Compile Include="Assets\SpecialDoorUI.cs" />
     <Compile Include="Assets\Scripts\net\ChangeNameResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UI2DSprite.cs" />
     <Compile Include="Assets\Scripts\GameGlobal.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\ArenaListResponse.cs" />
-    <Compile Include="Assets\Scripts\util\MusicPlayer.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\EquipUseResponse.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\EquipChangeResponse.cs" />
+    <Compile Include="Assets\Scripts\util\MusicPlayer.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
     <Compile Include="Assets\Scripts\util\FileHandler.cs" />
     <Compile Include="Assets\Scripts\pdata\UserInfo.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\OffHeroEauipRequest.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
-    <Compile Include="Assets\Scripts\ui\partnerinfo\evoleveNode.cs" />
     <Compile Include="Assets\XLua\Tutorial\LuaCallCSharp\LuaCallCs.cs" />
     <Compile Include="Assets\XLua\Src\StaticLuaCallbacks.cs" />
+    <Compile Include="Assets\Scripts\ui\partnerinfo\evoleveNode.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
     <Compile Include="Assets\XLua\Src\ObjectTranslatorPool.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\EnvelopContent.cs" />
@@ -499,12 +499,12 @@
     <Compile Include="Assets\Scripts\pdata\MailInfo.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroListRequest.cs" />
     <Compile Include="Assets\Scripts\def\data_crystal_upgradeDef.cs" />
-    <Compile Include="Assets\Scripts\ui\exui\HuaLaTest.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
     <Compile Include="Assets\Scripts\showfps.cs" />
-    <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\TeasurehuntRewardGetRequest.cs" />
+    <Compile Include="Assets\Scripts\ui\exui\HuaLaTest.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIPlayTween.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MailListRequest.cs" />
     <Compile Include="Assets\XLua\Tutorial\CSharpCallLua\CSCallLua.cs" />
@@ -514,21 +514,21 @@
     <Compile Include="Assets\XLua\Src\ObjectTranslator.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
     <Compile Include="Assets\Scripts\util\SoundPlayer.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\EquipUnloadResponse.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\OpenURLOnClick.cs" />
     <Compile Include="Assets\Scripts\ui\tianqiactivity\TianqiMosnterDlg.cs" />
     <Compile Include="Assets\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\TypewriterEffect.cs" />
     <Compile Include="Assets\Scripts\def\data_buildingDef.cs" />
-    <Compile Include="Assets\Scripts\ui\exui\MeshNode.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\TechListResponse.cs" />
     <Compile Include="Assets\Scripts\ui\exui\PopInput.cs" />
-    <Compile Include="Assets\NGUI\Examples\Scripts\Other\OpenURLOnClick.cs" />
+    <Compile Include="Assets\Scripts\ui\exui\MeshNode.cs" />
     <Compile Include="Assets\Scripts\net\WorldBoosGetRewardsRequest.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\TianqiAwardResponse.cs" />
-    <Compile Include="Assets\Scripts\net\cmdbean\TechListRequest.cs" />
     <Compile Include="Assets\Scripts\ui\equipinfo\EquipTypeItem.cs" />
+    <Compile Include="Assets\Scripts\net\cmdbean\TechListRequest.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteCollection.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MailReceiveResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
@@ -552,10 +552,10 @@
     <Compile Include="Assets\Scripts\ui\TreasureInfoTip.cs" />
     <Compile Include="Assets\Scripts\fight\fightui\FightTou.cs" />
     <Compile Include="Assets\Scripts\ui\mail\MailItem.cs" />
-    <Compile Include="Assets\Scripts\net\cmdbean\EquipDecomposeResponse.cs" />
     <Compile Include="Assets\Scripts\def\data_skill_levelDef.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\UIEventListener.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\Scripts\net\cmdbean\EquipDecomposeResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedWidget.cs" />
     <Compile Include="Assets\Scripts\fight\fightui\FightUI.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UIColorPicker.cs" />
@@ -981,7 +981,7 @@
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>E:\Project\Unity\KingProject\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -1365,26 +1365,26 @@
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{17909c28-0c58-0926-26e1-b1a51fbec2fc}</Project>
+      <Project>{ed50d22a-b82b-4bbe-1df8-5e9892a14af7}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
-      <Project>{315adeaa-5d0e-bd8f-763d-9407d6c1d835}</Project>
+      <Project>{e4432b0e-c005-dd41-bfcf-40ebc1991c1c}</Project>
       <Name>spine-unity</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity-editor.csproj">
-      <Project>{be98b142-e1e4-7fa6-35c6-f562cf6c19bf}</Project>
+      <Project>{928909f6-34e5-565f-13cb-07770026bdad}</Project>
       <Name>spine-unity-editor</Name>
     </ProjectReference>
   </ItemGroup>

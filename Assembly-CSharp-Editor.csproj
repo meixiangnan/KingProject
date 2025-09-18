@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4bbad3b5-4c99-3831-8ac1-edbe30822456}</ProjectGuid>
+    <ProjectGuid>{2d9cd83d-7c07-64f6-ea53-a767580b5005}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -444,10 +444,10 @@
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>E:\Project\Unity\KingProject\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.2.1\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>E:\Project\Unity\KingProject\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -840,30 +840,30 @@
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:\Project\Unity\KingProject\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{17909c28-0c58-0926-26e1-b1a51fbec2fc}</Project>
+      <Project>{ed50d22a-b82b-4bbe-1df8-5e9892a14af7}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{fe666902-1a79-f049-09f7-1a3778848203}</Project>
+      <Project>{be135430-50e2-b23f-3ebb-cc67b5aea2bc}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity.csproj">
-      <Project>{315adeaa-5d0e-bd8f-763d-9407d6c1d835}</Project>
+      <Project>{e4432b0e-c005-dd41-bfcf-40ebc1991c1c}</Project>
       <Name>spine-unity</Name>
     </ProjectReference>
     <ProjectReference Include="spine-unity-editor.csproj">
-      <Project>{be98b142-e1e4-7fa6-35c6-f562cf6c19bf}</Project>
+      <Project>{928909f6-34e5-565f-13cb-07770026bdad}</Project>
       <Name>spine-unity-editor</Name>
     </ProjectReference>
   </ItemGroup>
