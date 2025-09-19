@@ -108,8 +108,8 @@
     <Compile Include="Assets\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
     <Compile Include="Assets\XLua\Src\Editor\Hotfix.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\MinMaxRangeAttributeDrawer.cs" />
@@ -133,11 +133,11 @@
     <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIAtlasInspector.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UISliderEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHelp.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UICameraEditor.cs" />
     <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
     <None Include="Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
@@ -839,6 +839,9 @@
     <Reference Include="System.Xml.XPath.XDocument">
       <HintPath>C:\Program Files\Tuanjie\Hub\Editor\2022.3.61t4\Editor\Data\TuanjieReferenceAssemblies\tuanjie-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
     </Reference>
+    <Reference Include="Luban.Runtime">
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\Luban.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -847,6 +850,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Luban.Editor">
+      <HintPath>E:\Project\Unity\KingProject_new\Library\ScriptAssemblies\Luban.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

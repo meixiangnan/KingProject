@@ -19,7 +19,7 @@ public class data_mailDef
 
 	public static void load(){
 		string path=CTGlobal.defRoot+ "data_mail.bin";
-		JavaReader jr = DefTools.getSdCardResourcedef(path);
+		JavaReader jr = DefTools.getSdCardResourcedef(path);  
 
 		load(jr);
 	}
