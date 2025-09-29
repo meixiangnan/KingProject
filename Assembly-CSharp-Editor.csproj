@@ -108,8 +108,8 @@
     <Compile Include="Assets\NGUI\Scripts\Editor\UISnapshotPointEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetContainerEditor.cs" />
     <Compile Include="Assets\XLua\Src\Editor\Hotfix.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UILabelInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UISpriteInspector.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\TweenOrthoSizeEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\MinMaxRangeAttributeDrawer.cs" />
@@ -133,11 +133,11 @@
     <Compile Include="Assets\NGUI\Scripts\Editor\UIPlayTweenEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UIButtonMessageEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIAtlasInspector.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\PropertyReferenceDrawer.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UISliderEditor.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\NGUIHelp.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UI2DSpriteEditor.cs" />
-    <Compile Include="Assets\NGUI\Scripts\Editor\UIDrawCallViewer.cs" />
     <Compile Include="Assets\NGUI\Scripts\Editor\UICameraEditor.cs" />
     <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
     <None Include="Assets\XLua\Src\Editor\Template\LuaWrapPusher.tpl.txt" />
