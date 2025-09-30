@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using SimpleJSON;
 
 public class GameGlobal : MonoBehaviour
 {
@@ -290,6 +292,15 @@ public class GameGlobal : MonoBehaviour
 
         SensitiveWords.load();
 
+        // 一行代码可以加载所有配置。 cfg.Tables 包含所有表的一个实例字段。
+        var tables = new cfg.Tables(LoadJson);
+        
+        Debug.Log("lubantext:"+tables.Tbresources.Get(1).ResourcesName);
+    }
+    
+    private static JSONNode LoadJson(string file)
+    {
+        return JSON.Parse(File.ReadAllText($"Assets/Res/Config/{file}.json", System.Text.Encoding.UTF8));
     }
 
     public static void enterFightScene(bool isNeedLoad = true)

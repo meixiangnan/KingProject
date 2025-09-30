@@ -456,6 +456,7 @@
     <Compile Include="Assets\Scripts\ui\guide\GuideConditionType.cs" />
     <Compile Include="Assets\Scripts\spineanimation\SpineStreamAtlas.cs" />
     <Compile Include="Assets\Scripts\fight\FightBuff.cs" />
+    <Compile Include="Assets\Scripts\Config\Tbresources.cs" />
     <Compile Include="Assets\NGUI\Scripts\Internal\ActiveAnimation.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\LoginResponse.cs" />
     <Compile Include="Assets\Scripts\pdata\Reward.cs" />
@@ -537,6 +538,7 @@
     <Compile Include="Assets\NGUI\Scripts\UI\UISpriteCollection.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MailReceiveResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\Scripts\Config\resources.cs" />
     <Compile Include="Assets\Scripts\CTGlobal.cs" />
     <Compile Include="Assets\XLua\Src\CopyByValue.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroStoneLevelUpRequest.cs" />
@@ -687,6 +689,7 @@
     <None Include="Assets\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
     <None Include="Assets\StreamingAssets\Export\shenmidoumaoren.json" />
     <None Include="Assets\Resources\Shaders\baiyechuang.shader" />
+    <None Include="Assets\Res\Config\tbresources.json" />
     <None Include="Assets\StreamingAssets\Export\meimo.json" />
     <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored - hui 1.shader" />
     <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />

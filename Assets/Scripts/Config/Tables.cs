@@ -15,16 +15,22 @@ namespace cfg
 public partial class Tables
 {
     public demo.Tbitem Tbitem {get; }
+    /// <summary>
+    /// 游戏资源表
+    /// </summary>
+    public Tbresources Tbresources {get; }
 
     public Tables(System.Func<string, JSONNode> loader)
     {
         Tbitem = new demo.Tbitem(loader("demo_tbitem"));
+        Tbresources = new Tbresources(loader("tbresources"));
         ResolveRef();
     }
     
     private void ResolveRef()
     {
         Tbitem.ResolveRef(this);
+        Tbresources.ResolveRef(this);
     }
 }
 

@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "resources_name": "金币",
+    "resources_describe": "亮晶晶的金币，可用于多种日常消耗，是必不可少的好东西。",
+    "resources_picture": "icon_jinbi"
+  },
+  {
+    "id": 2,
+    "resources_name": "钻石",
+    "resources_describe": "具有更大用途的高级货币，这可不是一般人能拥有的哦。",
+    "resources_picture": "icon_zuan"
+  },
+  {
+    "id": 3,
+    "resources_name": "魂石",
+    "resources_describe": "能够激活宝物之魂的珍贵道具，可用于宝物注魂。",
+    "resources_picture": "icon_soul"
+  },
+  {
+    "id": 4,
+    "resources_name": "宝物精华",
+    "resources_describe": "宝物分解后所得到的精粹，可用于提升宝物等级。",
+    "resources_picture": "icon_baowujinghua"
+  },
+  {
+    "id": 5,
+    "resources_name": "炽焰之源",
+    "resources_describe": "独属于掌控者的符石，可用于强化炽焰水晶。",
+    "resources_picture": "icon_fire"
+  },
+  {
+    "id": 6,
+    "resources_name": "跃水之源",
+    "resources_describe": "独属于掌控者的符石，可用于强化跃水水晶。",
+    "resources_picture": "icon_woter"
+  },
+  {
+    "id": 7,
+    "resources_name": "飓风之源",
+    "resources_describe": "独属于掌控者的符石，可用于强化飓风水晶。",
+    "resources_picture": "icon_wind"
+  },
+  {
+    "id": 8,
+    "resources_name": "大地之源",
+    "resources_describe": "独属于掌控者的符石，可用于强化大地水晶。",
+    "resources_picture": "icon_ground"
+  },
+  {
+    "id": 9,
+    "resources_name": "光明之源",
+    "resources_describe": "独属于掌控者的符石，可用于强化光明水晶。",
+    "resources_picture": "icon_shine"
+  },
+  {
+    "id": 10,
+    "resources_name": "黑暗之源",
+    "resources_describe": "独属于掌控者的符石，可用于强化黑暗水晶。",
+    "resources_picture": "icon_black"
+  },
+  {
+    "id": 11,
+    "resources_name": "时空之源",
+    "resources_describe": "独属于掌控者的符石，可用于强化时空水晶。",
+    "resources_picture": "icon_time"
+  },
+  {
+    "id": 12,
+    "resources_name": "特性宝珠",
+    "resources_describe": "升级伙伴特性所需的重要道具。",
+    "resources_picture": "icon_soulrud"
+  },
+  {
+    "id": 13,
+    "resources_name": "女王币",
+    "resources_describe": "招募活动中使用的特殊代币，可用于招募强力伙伴。",
+    "resources_picture": "icon_superjinbi"
+  },
+  {
+    "id": 14,
+    "resources_name": "本源之力",
+    "resources_describe": "可用于激发魔王之力的世界本源。",
+    "resources_picture": "icon_benyuan"
+  },
+  {
+    "id": 15,
+    "resources_name": "潜能之力",
+    "resources_describe": "可用于激发伙伴潜能的珍贵道具。",
+    "resources_picture": "icon_qianneng"
+  },
+  {
+    "id": 16,
+    "resources_name": "宝物",
+    "resources_describe": "特性各异的宝物，装备后可以大幅提升战力。",
+    "resources_picture": "treasure99999"
+  },
+  {
+    "id": 17,
+    "resources_name": "元素结晶",
+    "resources_describe": "蕴含元素之力的晶石，可用于升级建筑。",
+    "resources_picture": "icon_fire"
+  },
+  {
+    "id": 18,
+    "resources_name": "秘传书",
+    "resources_describe": "十分稀有的传承之书，可用于升级技能。",
+    "resources_picture": "icon_woter"
+  }
+]
