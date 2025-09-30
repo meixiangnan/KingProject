@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using cfg;
 using UnityEngine;
 
 public class ItemInfoTip : DialogMonoBehaviour
@@ -25,15 +26,16 @@ public class ItemInfoTip : DialogMonoBehaviour
 
     void setUI()
     {
-        data_resourcesBean resoursbean = data_resourcesDef.dicdatas[itemdata.mainType][0];
+        //data_resourcesBean resoursbean = data_resourcesDef.dicdatas[itemdata.mainType][0];
+        resources resoursbean = GameGlobal.LubanTables.Tbresources.DataMap[itemdata.mainType];
         GameObject texframeobjs = ResManager.getGameObject("allpre", "vtexpaintnode");
         texframeobjs.name = "icon";
         TexPaintNode temppaintnode = texframeobjs.GetComponent<TexPaintNode>();
         temppaintnode.create1(icongen.gameObject, "item");
         temppaintnode.setdepth(402);
         paintnode = temppaintnode;
-        paintnode.playAction(resoursbean.resources_picture);
-        nameLabel.text = resoursbean.resources_name;
-        desLabel.text = resoursbean.resources_describe;
+        paintnode.playAction(resoursbean.ResourcesPicture);
+        nameLabel.text = resoursbean.ResourcesName;
+        desLabel.text = resoursbean.ResourcesDescribe;
     }
 }

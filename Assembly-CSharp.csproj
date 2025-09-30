@@ -183,7 +183,6 @@
     <Compile Include="Assets\Scripts\net\XLH.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\MonsterShowResponse.cs" />
     <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
-    <Compile Include="Assets\Scripts\def\data_resourcesDef.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragDropRoot.cs" />
     <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollView.cs" />
     <Compile Include="Assets\Scripts\net\cmdbean\HeroStoneInfoRequest.cs" />

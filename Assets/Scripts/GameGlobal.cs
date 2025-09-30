@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using cfg;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using SimpleJSON;
@@ -13,6 +14,7 @@ public class GameGlobal : MonoBehaviour
 
     public LoadingNode loadingnode;
 
+    public static Tables LubanTables;
 
     void Awake()
     {
@@ -247,7 +249,6 @@ public class GameGlobal : MonoBehaviour
         //{
         //    // return;
         //}
-        data_resourcesDef.load();
         data_buildingDef.load();
         data_building_upgradeDef.load();
         data_scienceDef.load();
@@ -293,9 +294,7 @@ public class GameGlobal : MonoBehaviour
         SensitiveWords.load();
 
         // 一行代码可以加载所有配置。 cfg.Tables 包含所有表的一个实例字段。
-        var tables = new cfg.Tables(LoadJson);
-        
-        Debug.Log("lubantext:"+tables.Tbresources.Get(1).ResourcesName);
+        LubanTables = new cfg.Tables(LoadJson);
     }
     
     private static JSONNode LoadJson(string file)

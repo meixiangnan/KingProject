@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using cfg;
 using UnityEngine;
 
 public class RewardItem : MonoBehaviour
@@ -43,7 +44,8 @@ public class RewardItem : MonoBehaviour
       
         string path = "item";
         string pic = "";
-        data_resourcesBean resoursbean = data_resourcesDef.dicdatas[bean.mainType][0];
+        //data_resourcesBean resoursbean = data_resourcesDef.dicdatas[bean.mainType][0];
+        resources resoursbean = GameGlobal.LubanTables.Tbresources.DataMap[bean.mainType];
         if (type == 1)
         {
             countLabel.text = "x" + bean.val;
@@ -58,7 +60,7 @@ public class RewardItem : MonoBehaviour
             countLabel.text = GameGlobal.gamedata.GetNumStr(bean.val) + "/" + GameGlobal.gamedata.GetNumStr(havenum);
             countLabel.text = GameGlobal.gamedata.GetNumStr(bean.val) + "/" + GameGlobal.gamedata.GetNumStr(havenum);
         }
-        pic = resoursbean.resources_picture;
+        pic = resoursbean.ResourcesPicture;
         if (paintnode == null)
         {
             GameObject texframeobjs = ResManager.getGameObject("allpre", "vtexpaintnode");

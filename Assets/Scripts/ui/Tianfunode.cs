@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using cfg;
 using UnityEngine;
 
 public class Tianfunode : MonoBehaviour
@@ -163,8 +164,9 @@ public class Tianfunode : MonoBehaviour
     {
         string path = "item";
         string pic = "";
-        data_resourcesBean resoursbean = data_resourcesDef.dicdatas[nextbean.cost_type][0];
-        pic = resoursbean.resources_picture;
+        //data_resourcesBean resoursbean = data_resourcesDef.dicdatas[nextbean.cost_type][0];
+        resources resoursbean = GameGlobal.LubanTables.Tbresources.DataMap[nextbean.cost_type];
+        pic = resoursbean.ResourcesPicture;
         if (paintnode == null)
         {
             GameObject texframeobjs = ResManager.getGameObject("allpre", "vtexpaintnode");

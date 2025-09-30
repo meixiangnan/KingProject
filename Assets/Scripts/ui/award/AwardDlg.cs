@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using cfg;
 using UnityEngine;
 
 public class AwardDlg : DialogMonoBehaviour
@@ -44,11 +45,13 @@ public class AwardDlg : DialogMonoBehaviour
     {
         for (int i = 0; i < rblist.Count; i++)
         {
-            data_resourcesBean resoursbean = data_resourcesDef.dicdatas[rblist[i].mainType][0];
+            //data_resourcesBean resoursbean = data_resourcesDef.dicdatas[rblist[i].mainType][0];
+            resources resoursbean = GameGlobal.LubanTables.Tbresources.DataMap[rblist[i].mainType];
+                
             if (i < _awardList.Count)
             {
                 _awardList[i].setReward(rblist[i]);
-                _awardList[i].countLabel.text = resoursbean.resources_name + "x" + rblist[i].val;
+                _awardList[i].countLabel.text = resoursbean.ResourcesName + "x" + rblist[i].val;
             }
             else
             {
@@ -65,7 +68,7 @@ public class AwardDlg : DialogMonoBehaviour
                         if (item != null)
                         {
                             item.setReward(rblist[i]);
-                            item.countLabel.text = resoursbean.resources_name + "x" + rblist[i].val;
+                            item.countLabel.text = resoursbean.ResourcesName + "x" + rblist[i].val;
                             _awardList.Add(item);
                         }
                     }

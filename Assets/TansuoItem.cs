@@ -118,7 +118,7 @@ public class TansuoItem : MonoBehaviour
         data = _data;
         data.db = data_exploreDef.dicdatas[data.exploreID][0];
         Reward reward = Reward.decode(data.db.rewards);
-        lab_title.text = data_resourcesDef.dicdatas[reward.mainType][0].resources_name;
+        lab_title.text = GameGlobal.LubanTables.Tbresources.DataMap[reward.mainType].ResourcesName;
         increasnum = reward.val;
         refreshUI();
     }

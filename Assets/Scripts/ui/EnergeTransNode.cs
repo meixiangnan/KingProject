@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using cfg;
 using UnityEngine;
 
 public class EnergeTransNode : MonoBehaviour
@@ -108,8 +109,9 @@ public class EnergeTransNode : MonoBehaviour
     {
         string path = "item";
         string pic = "";
-        data_resourcesBean resoursbean = data_resourcesDef.dicdatas[costType][0];
-        pic = resoursbean.resources_picture;
+        //data_resourcesBean resoursbean = data_resourcesDef.dicdatas[costType][0];
+        resources resoursbean = GameGlobal.LubanTables.Tbresources.DataMap[costType];
+        pic = resoursbean.ResourcesPicture;
         if (paintnode == null)
         {
             GameObject texframeobjs = ResManager.getGameObject("allpre", "vtexpaintnode");
