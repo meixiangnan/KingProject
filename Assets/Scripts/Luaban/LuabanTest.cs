@@ -1,22 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
-using cfg;
+using System.IO;
 using UnityEngine;
 using SimpleJSON;
-using UnityEditor;
 
 public class LuabanTest : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        var table = new Tables(LoadTable);
-        Debug.Log(table.Tbitem.Get(1001).Name);
+        var tables = new cfg.Tables(LoadByteBuf);
+        UnityEngine.Debug.LogFormat("item[1].name:{0}", tables.Tbitem.Get(1001).Id);
+
+
+        UnityEngine.Debug.Log("== load succ==");
     }
 
-    public JSONNode LoadTable(string table_name)
+    private static JSONNode LoadByteBuf(string file)
     {
-        var textAsset = AssetDatabase.LoadAssetAtPath<TextAsset>($"Assets/Res/Config/{table_name}.json");
-        return JSON.Parse(textAsset.text);
+        return JSON.Parse(File.ReadAllText(Application.dataPath + "/Res/Config/" + file + ".json", System.Text.Encoding.UTF8));
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
     }
 }
